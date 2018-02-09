@@ -1,0 +1,73 @@
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background-color: rgb(211, 224, 241)
+}
+h1 {
+    text-align: center;
+} 
+.links {
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    z-index: 1;
+}
+.linkhome {
+    color: rgb(12, 12, 39);
+    font-size: 25px;
+    padding: 10px;
+    text-decoration: none;
+}
+.linkhome:visited {
+    color: rgb(12, 12, 39);
+}
+.linkhome:hover {
+    background: rgb(232, 248, 5);
+}
+.linkabout {
+    color: rgb(12, 12, 39);
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 700;
+}
+    .linkabout:visited {
+        color: rgb(12, 12, 39);
+    }
+    .linkabout:hover {
+        background: yellow;
+    }
+    #e46 {
+        width: 800px;
+        height: auto;
+    }
+.page {
+    margin-left: 350px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgb(98, 148, 240);
+    width: 800px;
+    min-height: 100%;
+}
+.blockhome {
+    margin: auto;
+    background: rgb(247, 247, 245);
+    width: 700px;
+    height: auto;
+    border-style: ridge;
+    border-color: yellow;
+} 
+img {
+    width: 300px;
+    height: auto;
+}
+.imgblog {
+    float: left;
+    margin: 20px;
+}
+.textblog {
+    vertical-align: top;
+    margin: 20px;
+}
+    
